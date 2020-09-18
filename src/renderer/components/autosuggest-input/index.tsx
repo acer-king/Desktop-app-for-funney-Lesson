@@ -62,6 +62,7 @@ export default function AutosuggestInput<T>({
     },
     []
   );
+
   const onSuggestionsFetchRequested = React.useCallback<
     Autosuggest.SuggestionsFetchRequested
   >(({ value }: { value: string }): void => {
